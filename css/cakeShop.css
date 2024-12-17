@@ -1,0 +1,264 @@
+.healthy {
+    background-image: url(../img/h1_hero1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'myfont';
+    src: url(../img/gary_downley_script/GaryDownleyScript_PERSONAL_USE_ONLY.otf);
+}
+@font-face {
+    font-family: 'newfont';
+    src: url(../img/cream_cake/Cream\ Cake.otf);
+}
+@font-face {
+    font-family: 'curves';
+    src: url(../img/lanka_curves/Lanka\ Curves.otf);
+}
+.cake-logo {
+    background-color: #0d0909;
+}
+
+.navbar a {
+    color: aliceblue !important;
+}
+
+.healthy h1 {
+    margin-top: 20%;
+    font-size: 60px;
+    margin-bottom: 41px;
+    color: #fff;
+    line-height: 1.2;
+}
+h1{
+    font-family: curves;
+}
+.tomato{
+    font-family: myfont;
+}
+.healthy .btn {
+    height: 50px;
+    width: 160px;
+    background-color: #E5BF4A;
+}
+
+.healthy .btn:hover {
+    background-color: #000000;
+    color: #E5BF4A;
+    border: #E5BF4A 1px solid;
+}
+
+.Awesome {
+    background-color: #000000;
+    color: #fff;
+}
+
+.Schilers p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.mySwiper .card {
+    background-color: black;
+}
+
+.mySwiper {
+    background-color: black;
+}
+
+.mySwiper .card-body {
+    text-shadow: 1px 1px 1px #151212;
+
+}
+
+
+html,
+body {
+    position: relative;
+    height: 100%;
+    background-color: #000;
+}
+
+body {
+    background: #000000;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video {
+    background: url(../img/video-bg.jpg);
+    height: 600px;
+    width: 100%;
+    position: relative;
+    margin-top: 10%;
+}
+
+.video .btn {
+    position: absolute;
+    top: 300px;
+    left: 600px;
+    height: 100px;
+    width: 100px;
+    background-color: #E5BF4A;
+    border-radius: 50px;
+}
+
+.food .p-text {
+    color: #fff;
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 36px;
+    font-weight: 300;
+}
+
+.blog .btn {
+    height: 50px;
+    width: 160px;
+    background-color: #E5BF4A;
+    margin-left: 60%;
+}
+
+.blog .btn:hover {
+    background-color: #000000;
+    color: #E5BF4A;
+    border: #E5BF4A 1px solid;
+}
+
+.follow {
+    background-color: #000;
+
+}
+
+.follow .insta {
+    height: 50px;
+    width: 160px;
+    border: #E5BF4A 1px solid;
+    padding: 15px;
+    color: #E5BF4A;
+}
+
+.logo-links {
+    margin-left: 30%;
+    font-size: 20px;
+}
+
+.socials button {
+    height: 50px;
+    width: 160px;
+    border: grey 1px solid;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    margin: 5px;
+}
+
+.socials i {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+/* cake.html */
+
+.cake {
+    background-image: url(../img/h1_hero1-cropped.jpg);
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cake h1 {
+    margin-top: 10%;
+    font-size: 70px;
+}
+
+.cakes-cards .card {
+    background-color: #000;
+
+}
+
+.cakes-cards {
+    background-color: #000;
+
+}
+
+.cakes-cards h1 {
+    color: #fff;
+    font-size: 25px;
+}
+
+.cakes-cards p {
+    color: #E5BF4A;
+    font-size: 15px;
+}
+
+.cake-logo ul li {
+    font-size: 20px;
+
+}
+
+.cake-logo ul li:hover {
+    border-bottom: 1px solid #E5BF4A;
+
+}
+
+.vdo {
+    height: 100vh;
+    background-image: url(../img/video-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.vdo .btn {
+
+    transform: translate(50%, 50%);
+    background-color: #E5BF4A;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.contact-form input,textarea{
+    background-color: #000;
+    border: 1px solid #fff;
+}
+.contact-form textarea{
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.contact-form ::placeholder{
+    color: #fff;
+}
